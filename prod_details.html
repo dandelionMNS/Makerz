@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makerz | Product Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <div class="navbar">
+        <div class="navbar-c">
+            <div class="logo">
+              <img src="./assets/logo.png" id="logo" />
+            </div>
+      
+            <div class="flex flex-col w-full p-3 gap-3">
+              <div class="flex flex-row items-center justify-between gap-3">
+                <div class="search h-min w-full flex items-center">
+                  <input placeholder="Search" class="w-full" />
+                </div>
+                <div class="flex right-nav gap-3 px-5">
+                        <a href="./soon.html">
+                  <button class="login">
+                    <img src="./assets/ic_user.svg" />
+                    Login
+                  </button>
+                </a>
+                  <button class="cart">
+                    <img src="./assets/ic_bag.svg" />
+                    <a>Cart</a>
+                  </button>
+                </div>
+              </div>
+      
+              <div class="nav-btn p-2">
+                <a href="./index.html">Home</a>
+                <a href="./products.html">Product</a>
+                <a href="https://google.com">Makers Community</a>
+                <a href="./size.html">Sizing Chart</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="flex flex-col items-center sec-1 my-5">
+      <div class="section-c flex flex-col items-center gap-12" style="width: auto !important; ">
+        <div class="gap-2 flex flex-wrap flex-row items-start justify-center">
+          <img 
+          src="./assets/prod1.png"
+          alt="header1"
+          class="w-2/5 pr-16" style="min-width: 300px;" />
+
+          <div class="w-2/5 flex flex-col" style="min-width: 300px;">            
+            <p class="font-semibold text-4xl text-[#0008]">OL ASAS BELERANG T2</p>
+            <p><strong>RM190.00</strong></p>
+
+            <div class="p-5">
+              <div class="flex gap-2 p-2"><img src="./assets/global.webp" class="icon"><p>Worldwide shipping</p></div>
+              <div class="flex gap-2 p-2"><img src="./assets/lock.webp" class="icon"><p> Secure payments</p></div>
+              <div class="flex gap-2 p-2"><img src="./assets/tick.webp" class="icon"><p>  Authentic products</p></div>
+            </div>
+
+            <div>
+              <p>Size</p>
+
+              <div class="grid-cols-2 size-btn">
+                <input type="radio" id="no4" name="size">
+                <label for="no4">4 UK</label>
+                
+                <input type="radio" id="no4.5" name="size">
+                <label for="no4.5">4.5 UK</label>
+                
+                <input type="radio" id="no5" name="size">
+                <label for="no5">5 UK</label>
+                
+                <input type="radio" id="no5.5" name="size">
+                <label for="no5.5">5.5 UK</label>
+                
+                <input type="radio" id="no6" name="size">
+                <label for="no6">6 UK</label>
+                
+                <input type="radio" id="no6.5" name="size">
+                <label for="no6.5">6.5 UK</label>
+                
+                <input type="radio" id="no7" name="size">
+                <label for="no7">7 UK</label>
+                
+                <input type="radio" id="no8" name="size">
+                <label for="no8">8 UK</label>
+                
+                <input type="radio" id="no9" name="size">
+                <label for="no9">9 UK</label>
+                
+                <input type="radio" id="no10" name="size">
+                <label for="no10">10 UK</label>
+                
+                <input type="radio" id="no11" name="size">
+                <label for="no11">11 UK</label>
+                
+                <input type="radio" id="no12" name="size">
+                <label for="no12">12 UK</label>
+              </div>
+              
+     
+              <a href="./products.html" class="btn text-[#0008] w-fit border-[#0008] py-3 hover:text-[#fffd]">Add To Cart</a>
+            </div>
+        </div>
+      
+    
+      </div>
+    </section>
+
+    <footer class="w-full">
+
+      <div class="flex justify-between gap-5 p-5">
+        <p class="border-r-2 border-white pr-5">
+            ©2024 Makerz Empire
+        </p>
+
+        <div class="flex gap-5">
+          <a href="#">
+              Terms of Service
+          </a>
+
+          <a href="#" class="border-x-2 border-white px-5">
+              Privacy Policy
+          </a>
+
+          <a href="#">
+              Refund Policy
+          </a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+</html>
